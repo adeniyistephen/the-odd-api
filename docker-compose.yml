@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  the-odd-api:
+    build: '.'
+    ports:
+      - '8080:8080'
+    
